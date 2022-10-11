@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    position: relative;
+    display: flex;
+    background: linear-gradient(200deg, #ffd6ff, #a8edaa);
+    min-height: 100%;
+    color: #348901;
+    font-size: 16px;
+    font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, "Microsoft JhengHei", "MicrMicrosoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 2;
+}
+body {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    margin: 1rem 0 .7rem;
+    color: #348901;
+    font-weight: 700
+}
+hr:before {
+    position: absolute;
+    top: -10px;
+    left: 5%;
+    z-index: 1;
+    color: #49b1f5;
+    content: '\f0c4';
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 20px;
+    transition: all 1s ease-in-out;
+}
+hr {
+    position: relative;
+    margin: 2rem auto;
+    width: calc(100% - 4px);
+    border: 2px dashed #a4d8fa;
+    background: #fff;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+#mv-info {
+    padding: 10px;
+    magin: 10px;
+}
+#footer {
+    position: relative;
+    margin-top: 1rem;
+    background-attachment: local;
+    background-position: bottom;
+    background-size: cover;
+}
+#footer-wrap {
+    position: relative;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+#footer, .layout_page, .layout_post {
+    -webkit-animation: main 1s;
+    -moz-animation: main 1s;
+    -o-animation: main 1s;
+    -ms-animation: main 1s;
+    animation: main 1s;
+}
